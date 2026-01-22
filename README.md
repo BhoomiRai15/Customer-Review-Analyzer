@@ -25,11 +25,13 @@ This project is ideal for college mini-projects, internships, and GitHub portfol
 ## 📁 Project Structure
 
 Customer-Review-Analyzer/
-├── customer_review_analyzer.py
-├── requirements.txt
-├── README.md
+│
+├── customer_review_analyzer.py   # Main Python script (EDA + GenAI)
+├── requirements.txt              # Required Python libraries
+├── README.md                     # Project documentation
+│
 └── data/
-    └── reviews.csv
+    └── reviews.csv               # Customer reviews dataset
 
 ---
 
@@ -61,11 +63,7 @@ pip install -r requirements.txt
 
 ## 🔑 OpenAI API Key Configuration
 
-Open the file customer_review_analyzer.py and replace the placeholder with your OpenAI API key:
-
-openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-Important: Do not push your real API key to a public repository.
+Open the file customer_review_analyzer.py and replace the placeholder with your OpenAI API key
 
 ---
 
