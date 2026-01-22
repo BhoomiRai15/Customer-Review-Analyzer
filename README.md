@@ -24,14 +24,16 @@ This project is ideal for college mini-projects, internships, and GitHub portfol
 
 ## 📁 Project Structure
 
+```
 Customer-Review-Analyzer/
 │
-├── customer_review_analyzer.py   # Main Python script (EDA + GenAI)
-├── requirements.txt              # Required Python libraries
+├── customer_review_analyzer.py   # Main Python script
+├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
 │
 └── data/
-    └── reviews.csv               # Customer reviews dataset
+    └── reviews.csv               # Dataset
+```
 
 ---
 
